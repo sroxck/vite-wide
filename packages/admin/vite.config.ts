@@ -1,9 +1,9 @@
 import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
 import path from "path";
 import { sharedConfig } from "../../config.global.ts";
+const { commonPlugins, ...commonConfig } = sharedConfig;
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [...commonPlugins],
   root: path.resolve(__dirname),
-  ...sharedConfig,
+  ...commonConfig,
 });
