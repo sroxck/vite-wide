@@ -1,13 +1,14 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import HelloWorld from './components/HelloWorld.vue'
 import Test from '@shared/components/Test.vue'
-
+const custom = <div>222</div>
 </script>
 
 <template>
   <div>
     <h1>admin</h1>
-    <Test />
+    <Test msg="22"></Test>
+    <custom></custom>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
