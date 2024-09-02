@@ -2,7 +2,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
 import vue from "@vitejs/plugin-vue";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
-import { PluginOption } from "vite";
+import { type PluginOption } from "vite";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 export const plugins: PluginOption[] = [
   vue(),
