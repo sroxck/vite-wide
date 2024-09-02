@@ -1,6 +1,7 @@
 <script setup lang="tsx">
 import HelloWorld from './components/HelloWorld.vue'
 import Test from '@shared/components/Test.vue'
+
 const custom = <div>222</div>
 </script>
 

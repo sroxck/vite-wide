@@ -5,7 +5,9 @@
     "packages/**/*",
     "packages/**/*.vue",
     "packages/**/*.tsx",
-    "./config.global.ts"
+    "packages/**/*.d.ts",
+    "./config.global.ts",
+    "types/shims-vue.d.ts"
   ],
   "exclude": ["packages/**/__tests__/*"],
   "compilerOptions": {
