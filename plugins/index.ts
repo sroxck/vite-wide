@@ -8,6 +8,7 @@ export const plugins: PluginOption[] = [
   vue(),
   vueJsx(),
   AutoImport({
+    imports: ["vue", "vue-router"],
     resolvers: [ElementPlusResolver()],
   }),
   Components({
